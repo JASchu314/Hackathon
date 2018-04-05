@@ -6,7 +6,9 @@ namespace UNO
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GameManager manager = new GameManager(6);
+            manager.PlayGame();
+            Console.ReadKey();
         }
     }
 }

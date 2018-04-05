@@ -29,4 +29,16 @@ namespace UNO{
         DrawFour,
         Wild,
     }
+    public enum TurnResult{
+        GameStart,
+        PlayedCard,
+        Skip,
+        DrawTwo,
+        Attacked,
+        ForceDraw,
+        ForceDrawPlay,
+        WildCard,
+        WildDrawFour,
+        Reversed
+    }
 }
